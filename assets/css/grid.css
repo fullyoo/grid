@@ -197,7 +197,16 @@ a {
 
 
 @media(max-width: 1024px) {
+    .container {
+        width: 100%;
+        /* width: calc(100% - 40px); */
+        grid-gap: 20px 5%;
+    }
+
     .img-container {
+        width: 100%;
+        width: calc(100% - 40px);
+
         grid-template-areas:
             "image1a image1a"
             "image2b image3c"
@@ -208,6 +217,7 @@ a {
 
         /* grid-auto-rows: auto; */
     }
+
 }
 
 @media(max-width: 767px) {
