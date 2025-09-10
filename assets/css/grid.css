@@ -52,6 +52,8 @@ a {
     display: grid;
     padding: 10px;
     background: #ddd;
+    width: 900px;
+    margin: 50px auto;
 
     grid-template-columns: 300px 300px 300px 300px;
     grid-template-columns: repeat(4, 300px);
